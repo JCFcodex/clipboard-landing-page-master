@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Clipboard landing page</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        width: 100%;
+        font-size: 0.5rem;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        background-color: #26bba4;
+        text-align: left;
+      }
+      .attribution a {
+        color: #4c545c;
+
+        text-decoration: none;
+      }
+
+      .attribution a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero-1" data-aos="fade-down">
+      <div class="logo"><img src="images/logo.svg" alt="logo" /></div>
+      <div class="main-heading">
+        <div class="title">
+          <h1>A history of everything you copy</h1>
+        </div>
+        <div class="desc">
+          <p>
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+        </div>
+      </div>
+      <div class="download-links">
+        <a href="#" class="download-btn ios">Download for iOS</a>
+        <a href="#" class="download-btn mac">Download for Mac</a>
+      </div>
+    </section>
+
+    <section class="hero-2">
+      <div
+        class="box"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <div class="title">
+          <h1>Keep track of your snippets</h1>
+        </div>
+        <div class="desc">
+          <p>
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
+      </div>
+      <div
+        class="box"
+        data-aos="fade-right"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
+        <img src="images/image-computer.png" alt="computer picture" />
+      </div>
+      <div class="box">
+        <div
+          class="feature"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
+          <h2 class="feature-title">Quick Search</h2>
+          <p class="feature-description">
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+        </div>
+        <div
+          class="feature"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
+          <h2 class="feature-title">iCloud Sync</h2>
+          <p class="feature-description">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
+        </div>
+        <div
+          class="feature"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
+          <h2 class="feature-title">Complete History</h2>
+          <p class="feature-description">
+            Retrieve any snippets from the first moment you started using the
+            app.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="hero-3"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
+      <div class="access-clipboard">
+        <div class="title">
+          <h1>Access Clipboard anywhere</h1>
+        </div>
+        <div class="desc">
+          <p>
+            Whether you're on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
+          </p>
+        </div>
+      </div>
+      <div class="content-image">
+        <img src="images/image-devices.png" alt="devices" />
+      </div>
+    </section>
+
+    <section
+      class="hero-4"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
+      <div class="box">
+        <div class="title">
+          <h1>Supercharge your workflow</h1>
+        </div>
+        <div class="desc">
+          <p>We've got the tools to boost your productivity.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/icon-blacklist.svg" alt="blacklists" />
+        <h2 class="feature-title">Create blacklists</h2>
+        <p class="feature-description">
+          Ensure sensitive information never makes its way to your clipboard by
+          excluding certain sources.
+        </p>
+      </div>
+      <div class="box">
+        <img src="images/icon-text.svg" alt="text snippets" />
+        <h2 class="feature-title">Plain text snippets</h2>
+        <p class="feature-description">
+          Remove unwanted formatting from copied text for a consistent look.
+        </p>
+      </div>
+      <div class="box">
+        <img src="images/icon-preview.svg" alt="preview" />
+        <h2 class="feature-title">Sneak preview</h2>
+        <p class="feature-description">
+          Quick preview of all snippets on your Clipboard for easy access.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="hero-5"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
+      <div class="logos">
+        <img src="images/logo-google.png" alt="logo-google" />
+      </div>
+      <div class="logos"><img src="images/logo-ibm.png" alt="logo-ibm" /></div>
+      <div class="logos">
+        <img src="images/logo-microsoft.png" alt="logo-microsoft" />
+      </div>
+      <div class="logos"><img src="images/logo-hp.png" alt="logo-hp" /></div>
+      <div class="logos">
+        <img src="images/logo-vector-graphics.png" alt="logo-vector-graphics" />
+      </div>
+    </section>
+
+    <section
+      class="hero-6"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
+      <div class="clipboard-content">
+        <div class="title">
+          <h2>Clipboard for iOS and Mac OS</h2>
+        </div>
+        <div class="desc">
+          <p>
+            Available for free on the App Store. Download for Mac or iOS, sync
+            with iCloud and you're ready to start adding to your clipboard.
+          </p>
+        </div>
+      </div>
+      <div
+        class="download-links"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <a href="#" class="download-btn ios">Download for iOS</a>
+        <a href="#" class="download-btn mac">Download for Mac</a>
+      </div>
+    </section>
+
+    <footer
+      class="footer"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
+      <div class="logo"><img src="images/logo.svg" alt="logo" /></div>
+      <div class="footer-nav-list">
+        <ul>
+          <li>
+            <a href="#" class="nav-link">FAQs</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Press Kit</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Install Guide</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-social-links">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="images/icon-facebook.svg" alt="icon-facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/icon-twitter.svg" alt="icon-twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/icon-instagram.svg" alt="icon-instagram"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >.<br />Coded by
+        <a
+          href="https://www.facebook.com/profile.php?id=100076613706558"
+          target="_blank"
+          >Faustino John Carl [JCFcodex]</a
+        >.
+      </p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
